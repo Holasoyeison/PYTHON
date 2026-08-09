@@ -8,4 +8,4 @@ if divisor==0:
     print("Error! No se puede dividir entre cero.")
 else: 
     resultado =dividendo/divisor
-    print("El resultado d ela division es: ",resultado)
+    print("El resultado de la division es: ",resultado)
