@@ -4,7 +4,7 @@ print("=====DESCUENTO TIENDA=====")
 valorCompra=float(input("Ingrese el valor de la compra: "))
 
 if valorCompra<50:
-    descuento="No tiene descuento."
+    descuento=0 #"No tiene descuento."
     valorTotal=valorCompra
 elif valorCompra<=100:
     descuento = valorCompra*0.10
