@@ -2,6 +2,7 @@
 print("======CLASIFICACION DE NOTAS======")
 
 nota =float(input("Ingresa la nota del estudiante: "))
+print ("="*32)
 while nota <0 or nota >5: 
     print ("Nota no válida. Debe estar entre 0 y 5.")
     nota= float(input("Ingrese la nota del estudiante:"))
