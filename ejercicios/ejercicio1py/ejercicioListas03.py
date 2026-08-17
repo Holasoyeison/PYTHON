@@ -14,9 +14,14 @@ for i in range(cantidad):
 print(f"="*31)
 for asignatura in asignaturas:
    
-    nota=input("qué nota has sacado en: "+asignatura+ "?")
+    nota=float(input("qué nota has sacado en: "+asignatura+ "?"))
     notas.append(nota)
 print(f"="*30)   
 for i in range(len(asignaturas)):
    
     print ("En", asignaturas[i],"has sacado", notas[i])
+
+promedio = sum(notas)/ len(notas)
+print(f"="*30)  
+
+print("El promeido entre las notas es: ", promedio)
