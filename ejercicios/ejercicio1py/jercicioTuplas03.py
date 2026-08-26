@@ -1,6 +1,6 @@
 print("===== NÚMERO MAYOR A LA MEDIA ====")
 
-numeros=input("Introduce los numeros separados ppr comas: ")
+numeros=input("Introduce los numeros separados por comas: ")
 numeros= numeros.split(",")
 numeros=[int(numero) for numero in numeros]
 media=sum(numeros)/len(numeros)
